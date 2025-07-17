@@ -1,0 +1,28 @@
+\contentsline {chapter}{\numberline {1}Hedging with futures}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Basis与 Basis Risk}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}对冲计算}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}什么是多头对冲}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}对冲机制解析}{1}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}空头对冲}{1}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}最优对冲比率}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Beta方法与Rho方法的数学关系与转换}{4}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}基本定义与核心公式}{4}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}数学等价性证明}{4}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}应用场景对比}{4}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}特殊情况分析}{4}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.5}实践意义}{5}{subsection.1.3.5}%
+\contentsline {chapter}{\numberline {2}interest rate Futures}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}公式介绍 (Formula Introduction)}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}公式推导 (Formula Derivation)}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}基本关系}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}报价价格计算}{6}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}公式应用示例 (Application Examples)}{6}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}示例1}{6}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}示例2}{7}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}公式特点分析 (Formula Analysis)}{7}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}时间因子影响}{7}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}价格关系}{7}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}360天惯例}{7}{subsection.2.4.3}%
+\contentsline {section}{\numberline {2.5}实际应用注意事项 (Practical Considerations)}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}与其他金融工具的比较 (Comparison with Other Instruments)}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.7}结论 (Conclusion)}{7}{section.2.7}%

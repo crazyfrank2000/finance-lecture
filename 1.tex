@@ -1,0 +1,349 @@
+\chapter{Hedging with futures}
+
+%——————————————————————————————————%
+
+\section{Basis与 Basis Risk}
+基差风险
+基差是现货与期货之间的价差。在到期前存在基差风险
+
+Basis = Spot  - Future 
+
+\begin{itemize}
+    \item $F_1$：建立对冲时的期货价格
+    \item $F_2$：购买资产时的期货价格
+    \item $S_2$：购买时的资产价格
+    \item $b_2$：购买时的基差
+\end{itemize}
+
+\subsection{对冲计算}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+资产成本 & $S_2$ \\
+\hline
+期货收益 & $F_2 - F_1$ \\
+\hline
+净支付金额 & $S_2 - (F_2 - F_1) = F_1 + b_2$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{什么是多头对冲}
+
+多头对冲是指\textbf{买入期货合约}来对冲未来购买现货资产时的价格上涨风险。适用于计划在未来购买某种资产的情况。
+
+\subsection{对冲机制解析}
+
+\textbf{资产成本}：直接购买资产的成本为 $S_2$。
+
+\textbf{期货收益}：
+\begin{itemize}
+    \item 期货头寸盈利 = $F_2 - F_1$
+    \item 因为是多头头寸，期货价格上涨时获利
+\end{itemize}
+
+\textbf{净支付金额}：
+$$\text{净支付} = S_2 - (F_2 - F_1) = F_1 + b_2$$
+
+
+\subsection{空头对冲}
+
+
+\textbf{空头对冲（Short Hedge）}是指卖出期货合约来对冲未来出售现货资产时的价格下跌风险。适用于已经持有资产或确定将来会持有资产，并计划在未来某个时间出售的情况。
+
+\textbf{变量说明}
+\begin{itemize}
+    \item $F_1$：建立对冲时（卖出期货时）的期货价格
+    \item $F_2$：出售资产时（平仓期货时）的期货价格
+    \item $S_2$：实际出售资产时的现货价格
+    \item $b_2 = S_2 - F_2$：出售时的基差
+\end{itemize}
+
+
+\textbf{对冲机制分析}
+
+\textbf{1. 资产销售收入}
+
+直接出售资产获得的收入为 $S_2$
+
+\textbf{2. 期货头寸盈亏}
+\begin{itemize}
+    \item 期初：卖出期货（空头），价格为 $F_1$
+    \item 期末：买入期货平仓，价格为 $F_2$
+    \item 期货盈利 = $F_1 - F_2$（价格下跌时获利）
+\end{itemize}
+
+\textbf{3. 净收入计算}
+\begin{equation}
+\text{净收入} = S_2 + (F_1 - F_2) = F_1 + b_2
+\end{equation}
+
+\textbf{假设一个农民计划3个月后出售小麦：}
+
+\textbf{时间点1（建立对冲）：}
+\begin{itemize}
+    \item 当前小麦期货价格 $F_1 = 200$ 元/吨
+    \item 操作：卖出期货合约
+\end{itemize}
+
+\textbf{时间点2（出售小麦）：}
+\begin{itemize}
+    \item 现货价格 $S_2 = 180$ 元/吨（下跌了）
+    \item 期货价格 $F_2 = 182$ 元/吨
+    \item 基差 $b_2 = 180 - 182 = -2$ 元/吨
+\end{itemize}
+
+\textbf{计算结果：}
+\begin{itemize}
+    \item 现货收入：180 元/吨
+    \item 期货盈利：$200 - 182 = 18$ 元/吨
+    \item 净收入：$180 + 18 = 198 = 200 + (-2)$ 元/吨
+\end{itemize}
+
+通过对冲，农民将收入锁定在约200元/吨的水平，有效规避了价格下跌的风险。
+
+
+\textbf{空头对冲与多头对冲对比}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{对比项} & \textbf{空头对冲} & \textbf{多头对冲} \\
+\hline
+期货操作 & 卖出期货 & 买入期货 \\
+\hline
+保护目标 & 防止价格下跌 & 防止价格上涨 \\
+\hline
+适用情况 & 未来要出售资产 & 未来要购买资产 \\
+\hline
+净结果 & $F_1 + b_2$ & $F_1 + b_2$ \\
+\hline
+\end{tabular}
+\end{table}
+
+两种对冲的净结果形式相同，但经济含义相反：空头对冲锁定销售收入，多头对冲锁定购买成本。
+
+
+%——————————————————————————————————%
+
+\section{最优对冲比率}
+
+\textbf{概念定义}
+
+最优对冲比率是指为了最小化对冲组合的风险，应该对冲的风险敞口比例。它告诉我们：对于每一单位的现货头寸，应该使用多少单位的期货合约进行对冲。
+
+\textbf{公式推导}
+
+最优对冲比率的公式为：
+\begin{equation}
+h^* = \rho \frac{\sigma_S}{\sigma_F}
+\end{equation}
+
+其中：
+\begin{itemize}
+    \item $h^*$：最优对冲比率
+    \item $\sigma_S$：现货价格变化 $\Delta S$ 的标准差
+    \item $\sigma_F$：期货价格变化 $\Delta F$ 的标准差
+    \item $\rho$：$\Delta S$ 和 $\Delta F$ 之间的相关系数
+\end{itemize}
+
+\textbf{推导原理}
+
+最优对冲比率通过最小化对冲组合的方差得出。设对冲组合的价值变化为：
+\begin{equation}
+\Delta V = \Delta S - h \Delta F
+\end{equation}
+
+对冲组合的方差为：
+\begin{equation}
+\text{Var}(\Delta V) = \sigma_S^2 + h^2\sigma_F^2 - 2h\rho\sigma_S\sigma_F
+\end{equation}
+
+对 $h$ 求导并令其等于零：
+\begin{equation}
+\frac{\partial \text{Var}(\Delta V)}{\partial h} = 2h\sigma_F^2 - 2\rho\sigma_S\sigma_F = 0
+\end{equation}
+
+解得最优对冲比率：
+\begin{equation}
+h^* = \rho \frac{\sigma_S}{\sigma_F}
+\end{equation}
+
+\textbf{经济含义}
+
+\textbf{1. 完美相关情况}（$\rho = 1$）
+\begin{itemize}
+    \item $h^* = \frac{\sigma_S}{\sigma_F}$
+    \item 对冲比率仅取决于波动率比率
+    \item 如果期货价格波动是现货的2倍，则只需0.5单位期货对冲1单位现货
+\end{itemize}
+
+\textbf{2. 不完全相关情况}（$0 < \rho < 1$）
+\begin{itemize}
+    \item 需要调整对冲比率
+    \item 相关性越低，最优对冲比率越小
+    \item 反映了期货不能完全对冲现货风险的事实
+\end{itemize}
+
+\textbf{实际应用示例}
+
+\textbf{示例1：股票组合对冲}
+
+假设投资者持有某股票组合，计划使用股指期货对冲：
+\begin{itemize}
+    \item 股票组合日收益率标准差：$\sigma_S = 2\%$
+    \item 股指期货日收益率标准差：$\sigma_F = 1.5\%$
+    \item 相关系数：$\rho = 0.9$
+\end{itemize}
+
+最优对冲比率：
+\begin{equation}
+h^* = 0.9 \times \frac{2\%}{1.5\%} = 1.2
+\end{equation}
+
+这意味着每100万元的股票组合，需要卖出价值120万元的股指期货。
+
+\textbf{示例2：外汇风险对冲}
+
+某出口企业需要对冲美元收入：
+\begin{itemize}
+    \item 美元现汇汇率波动率：$\sigma_S = 0.5\%$
+    \item 美元期货汇率波动率：$\sigma_F = 0.48\%$
+    \item 相关系数：$\rho = 0.95$
+\end{itemize}
+
+最优对冲比率：
+\begin{equation}
+h^* = 0.95 \times \frac{0.5\%}{0.48\%} = 0.99
+\end{equation}
+
+几乎是1:1的对冲比率。
+
+\textbf{实践考虑因素}
+
+\textbf{1. 参数估计}
+\begin{itemize}
+    \item 使用历史数据估计 $\sigma_S$、$\sigma_F$ 和 $\rho$
+    \item 选择合适的时间窗口（如30天、60天或90天）
+    \item 考虑参数的时变性
+\end{itemize}
+
+\textbf{2. 合约规格}
+\begin{itemize}
+    \item 期货合约有标准化的规格
+    \item 实际对冲比率需要四舍五入到整数合约
+    \item 可能存在剩余风险敞口
+\end{itemize}
+
+\textbf{3. 动态调整}
+\begin{itemize}
+    \item 市场条件变化时，最优对冲比率也会变化
+    \item 需要定期重新计算和调整
+    \item 权衡调整成本和对冲效果
+\end{itemize}
+
+\textbf{对冲效果评估}
+
+使用最优对冲比率后，对冲组合的最小方差为：
+\begin{equation}
+\text{Var}(\Delta V)_{min} = \sigma_S^2(1-\rho^2)
+\end{equation}
+
+对冲有效性（Hedge Effectiveness）可以表示为：
+\begin{equation}
+HE = \rho^2
+\end{equation}
+
+$\rho^2$ 也称为R-squared，表示期货价格变化能够解释现货价格变化的比例。例如，如果 $\rho = 0.9$，则 $HE = 0.81$，表示81\%的现货价格风险可以通过期货对冲消除。
+
+
+
+
+%——————————————————————————————————%
+
+\section{Beta方法与Rho方法的数学关系与转换}
+
+\subsection{基本定义与核心公式}
+
+\textbf{Beta系数定义：}
+\begin{equation}
+\beta = \frac{\text{Cov}(R_p, R_m)}{\text{Var}(R_m)} = \rho_{p,m} \cdot \frac{\sigma_p}{\sigma_m}
+\end{equation}
+
+\textbf{最优对冲比率（Rho方法）：}
+\begin{equation}
+h^* = \rho_{S,F} \cdot \frac{\sigma_S}{\sigma_F}
+\end{equation}
+
+其中：
+\begin{itemize}
+    \item $\rho_{p,m}$：投资组合与市场指数的相关系数
+    \item $\sigma_p, \sigma_m$：投资组合和市场指数的标准差
+    \item $\rho_{S,F}$：现货与期货的相关系数
+    \item $\sigma_S, \sigma_F$：现货和期货的标准差
+\end{itemize}
+
+\subsection{数学等价性证明}
+
+从协方差的定义出发：
+\begin{equation}
+\beta = \frac{\text{Cov}(R_p, R_m)}{\text{Var}(R_m)} = \frac{\rho_{p,m} \cdot \sigma_p \cdot \sigma_m}{\sigma_m^2} = \rho_{p,m} \cdot \frac{\sigma_p}{\sigma_m}
+\end{equation}
+
+对比两个公式结构，可得：
+\begin{equation}
+\boxed{\beta = h^* \quad \text{当将股票组合视为"现货"，股指期货视为"期货"时}}
+\end{equation}
+
+\subsection{应用场景对比}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{特征} & \textbf{Beta方法} & \textbf{Rho方法} \\
+\hline
+应用场景 & 股票组合vs股指 & 商品现货vs期货 \\
+风险度量 & 系统性风险敞口 & 总体价格风险 \\
+计算重点 & 相对市场的敏感度 & 相关性与波动率 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection{特殊情况分析}
+
+\begin{enumerate}
+    \item \textbf{完美相关}（$\rho = 1$）：
+    \begin{equation}
+    \beta = h^* = \frac{\sigma_p}{\sigma_m}
+    \end{equation}
+    
+    \item \textbf{相同波动率}（$\sigma_p = \sigma_m$）：
+    \begin{equation}
+    \beta = h^* = \rho
+    \end{equation}
+    
+    \item \textbf{指数基金}（$\rho \approx 1, \sigma_p \approx \sigma_m$）：
+    \begin{equation}
+    \beta = h^* \approx 1
+    \end{equation}
+\end{enumerate}
+
+\subsection{实践意义}
+
+两种方法的数学等价性揭示了对冲的统一本质：\textbf{寻找最小化风险的最优比率}。
+
+\begin{itemize}
+    \item 对于股票组合对冲，两种方法理论上等价
+    \item 选择依据：数据可得性和计算便利性
+    \item 交叉对冲时必须使用Rho方法
+\end{itemize}
+
+\textbf{核心结论}：Beta本质上是Rho方法在股票市场的特殊应用，当满足转换条件时，两者可以相互转换。
+
+
+
+

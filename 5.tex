@@ -1,0 +1,130 @@
+\chapter{interest rate Futures}
+
+\section{公式介绍 (Formula Introduction)}
+
+美国国库券的定价采用折扣收益率方法，其核心公式为：
+
+\begin{equation}
+P = \frac{360}{n}(100 - Y)
+\end{equation}
+
+其中：
+\begin{itemize}
+    \item $P$ = 报价价格 (Quoted Price)
+    \item $Y$ = 每100美元面值的现金价格 (Cash Price per \$100 face value)
+    \item $n$ = 到期天数 (Days to maturity)
+    \item $360$ = 银行年度天数惯例 (Banking year convention)
+\end{itemize}
+
+\section{公式推导 (Formula Derivation)}
+
+国库券的定价基于折扣机制，投资者以低于面值的价格购买，到期时按面值赎回。
+
+\subsection{基本关系}
+折扣率 $d$ 定义为：
+\begin{equation}
+d = \frac{\text{面值} - \text{购买价格}}{\text{面值}} \times \frac{360}{n}
+\end{equation}
+
+设面值为100美元，购买价格为 $Y$，则：
+\begin{equation}
+d = \frac{100 - Y}{100} \times \frac{360}{n}
+\end{equation}
+
+\subsection{报价价格计算}
+在美国国库券市场中，报价价格 $P$ 实际上表示的是年化折扣率（以百分比形式），因此：
+\begin{equation}
+P = d \times 100 = \frac{100 - Y}{100} \times \frac{360}{n} \times 100
+\end{equation}
+
+简化得到：
+\begin{equation}
+\boxed{P = \frac{360}{n}(100 - Y)}
+\end{equation}
+
+\section{公式应用示例 (Application Examples)}
+
+\subsection{示例1}
+假设一张91天到期的国库券，每100美元面值的现金价格为98.5美元：
+
+\begin{align}
+P &= \frac{360}{91}(100 - 98.5)\\
+&= \frac{360}{91} \times 1.5\\
+&= 3.956 \times 1.5\\
+&\approx 5.93\%
+\end{align}
+
+\subsection{示例2}
+如果报价价格为4.2\%，91天到期，求现金价格：
+
+\begin{align}
+4.2 &= \frac{360}{91}(100 - Y)\\
+4.2 &= 3.956(100 - Y)\\
+100 - Y &= \frac{4.2}{3.956}\\
+100 - Y &= 1.062\\
+Y &= 98.938
+\end{align}
+
+因此现金价格为每100美元面值98.938美元。
+
+\section{公式特点分析 (Formula Analysis)}
+
+\subsection{时间因子影响}
+\begin{itemize}
+    \item 随着到期时间 $n$ 增加，$\frac{360}{n}$ 减小
+    \item 相同的价格差异 $(100-Y)$ 会产生更低的年化报价价格
+    \item 体现了时间价值的影响
+\end{itemize}
+
+\subsection{价格关系}
+\begin{itemize}
+    \item $Y < 100$：国库券以折扣价交易
+    \item $Y$ 越小，折扣越大，报价价格 $P$ 越高
+    \item 报价价格与现金价格呈反向关系
+\end{itemize}
+
+\subsection{360天惯例}
+\begin{itemize}
+    \item 使用360天而非365天是银行业惯例
+    \item 简化计算，便于标准化
+    \item 与货币市场其他工具保持一致
+\end{itemize}
+
+\section{实际应用注意事项 (Practical Considerations)}
+
+\begin{enumerate}
+    \item \textbf{市场惯例}：美国国库券市场使用这种报价方式已有数十年历史
+    \item \textbf{计算精度}：实际交易中通常保留更多小数位
+    \item \textbf{到期计算}：$n$ 的计算需要考虑交割日和到期日之间的实际天数
+    \item \textbf{最小变动单位}：通常为0.01\%（1个基点）
+\end{enumerate}
+
+\section{与其他金融工具的比较 (Comparison with Other Instruments)}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}lcc@{}}
+\toprule
+金融工具 & 报价方式 & 年度天数惯例 \\
+\midrule
+国库券 & 折扣收益率 & 360天 \\
+商业票据 & 折扣收益率 & 360天 \\
+银行承兑汇票 & 折扣收益率 & 360天 \\
+国库债券 & 收益率到期日 & 365天 \\
+\bottomrule
+\end{tabular}
+\caption{不同金融工具的报价惯例}
+\end{table}
+
+\section{结论 (Conclusion)}
+
+美国国库券定价公式 $P = \frac{360}{n}(100 - Y)$ 是货币市场的重要工具，它：
+
+\begin{itemize}
+    \item 提供了标准化的报价方法
+    \item 便于不同期限国库券之间的比较
+    \item 反映了时间价值和风险的关系
+    \item 与整个货币市场体系保持一致
+\end{itemize}
+
+理解这个公式对于参与货币市场交易、风险管理和投资组合构建都具有重要意义。

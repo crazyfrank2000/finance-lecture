@@ -1,0 +1,335 @@
+\chapter{Duration}
+
+%——————————————————————————————————%
+
+\section{Key Duration Relationship}
+
+\textbf{Duration leads the key relationship between bond price and time}
+\textbf{债券久期关系 (Bond Duration Relationship)}
+
+\subsection{基本久期}
+
+久期是衡量债券价格对收益率变化敏感性的重要指标。其基本关系式为：
+
+\begin{equation}
+\frac{\Delta B}{B} = -D\Delta y
+\end{equation}
+
+\noindent 其中：
+\begin{itemize}
+    \item $\Delta B$ = 债券价格变化
+    \item $B$ = 债券当前价格
+    \item $D$ = 久期
+    \item $\Delta y$ = 收益率变化
+\end{itemize}
+
+\textbf{关键要点：}
+\begin{itemize}
+    \item 久期衡量了债券价格对收益率变化的敏感程度
+    \item 负号表示价格与收益率反向变动
+    \item 久期越大，价格对收益率变化越敏感
+\end{itemize}
+
+\subsection{修正久期 (Modified Duration)}
+
+当收益率按复利计算时，需要使用修正久期：
+
+\begin{equation}
+\Delta B = -\frac{BD\Delta y}{1 + y/m}
+\end{equation}
+
+修正久期定义为：
+\begin{equation}
+\text{修正久期} = \frac{D}{1 + y/m}
+\end{equation}
+
+\noindent 其中：
+\begin{itemize}
+    \item $m$ = 每年复利次数
+    \item $y$ = 年收益率
+    \item $D$ = 麦考利久期 (Macaulay Duration)
+\end{itemize}
+
+
+
+
+\textbf{麦考利久期的定义}
+
+麦考利久期是债券现金流的加权平均到期时间：
+
+\begin{equation}
+D_{Mac} = \frac{\sum_{t=1}^{n} \frac{t \cdot CF_t}{(1+y/m)^{tm}}}{\sum_{t=1}^{n} \frac{CF_t}{(1+y/m)^{tm}}} = \frac{\sum_{t=1}^{n} t \cdot PV(CF_t)}{B}
+\end{equation}
+
+\noindent 其中：
+\begin{itemize}
+    \item $CF_t$ = 第t期现金流
+    \item $PV(CF_t)$ = 第t期现金流现值
+    \item $B$ = 债券当前价格
+\end{itemize}
+
+\textbf{修正久期的推导}
+
+债券价格对收益率的一阶导数：
+
+\begin{equation}
+\frac{dB}{dy} = -\frac{1}{m} \sum_{t=1}^{n} \frac{t \cdot CF_t}{(1+y/m)^{tm+1}}
+\end{equation}
+
+整理得到：
+
+\begin{equation}
+\frac{dB}{dy} = -\frac{B \cdot D_{Mac}}{1 + y/m}
+\end{equation}
+
+因此修正久期定义为：
+
+\begin{equation}
+D_{Mod} = \frac{D_{Mac}}{1 + y/m}
+\end{equation}
+
+价格敏感性关系：
+
+\begin{equation}
+\frac{\Delta B}{B} = -D_{Mod} \cdot \Delta y
+\end{equation}
+
+\subsection{两种久期的关系与区别}
+
+\subsubsection{数学关系}
+
+\begin{equation}
+D_{Mod} = \frac{D_{Mac}}{1 + y/m}
+\end{equation}
+
+\noindent 其中：
+\begin{itemize}
+    \item $D_{Mac}$ = 麦考利久期
+    \item $D_{Mod}$ = 修正久期
+    \item $y$ = 年收益率
+    \item $m$ = 每年复利次数
+\end{itemize}
+
+\subsubsection{关键区别}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{特征} & \textbf{麦考利久期} & \textbf{修正久期} \\
+\hline
+定义 & 现金流加权平均时间 & 价格敏感性指标 \\
+\hline
+单位 & 年 & 百分比变化/收益率变化 \\
+\hline
+用途 & 理论分析 & 风险管理 \\
+\hline
+数值关系 & $D_{Mac} > D_{Mod}$ & $D_{Mod} < D_{Mac}$ \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{实际影响因素}
+
+调整因子 $\frac{1}{1 + y/m}$ 的影响：
+
+\begin{itemize}
+    \item \textbf{收益率水平}：收益率越高，修正久期相对麦考利久期的折扣越大
+    \item \textbf{复利频率}：复利次数越高，调整幅度越小
+    \item \textbf{数值示例}：
+    \begin{itemize}
+        \item 年收益率6\%，年复利1次：调整因子 = $\frac{1}{1.06} = 0.943$
+        \item 年收益率6\%，半年复利2次：调整因子 = $\frac{1}{1.03} = 0.971$
+        \item 年收益率6\%，连续复利：调整因子 = $e^{-0.06} = 0.942$
+    \end{itemize}
+\end{itemize}
+
+\subsection{实际应用}
+
+\subsubsection{风险管理应用}
+\begin{itemize}
+    \item \textbf{投资组合风险评估}：使用修正久期计算组合的利率风险暴露
+    \item \textbf{对冲策略设计}：根据修正久期匹配资产负债的利率敏感性
+    \item \textbf{VaR计算}：修正久期是利率VaR模型的核心参数
+\end{itemize}
+
+\subsubsection{投资决策应用}
+\begin{itemize}
+    \item \textbf{利率预期管理}：
+    \begin{itemize}
+        \item 预期利率上升 → 选择低修正久期债券
+        \item 预期利率下降 → 选择高修正久期债券
+    \end{itemize}
+    \item \textbf{免疫策略}：匹配资产和负债的修正久期
+\end{itemize}
+
+\subsubsection{数值示例}
+
+假设一个债券的麦考利久期为5年，年收益率为4\%，半年付息：
+
+\begin{align}
+D_{Mod} &= \frac{D_{Mac}}{1 + y/m} \\
+&= \frac{5}{1 + 0.04/2} \\
+&= \frac{5}{1.02} \\
+&= 4.902 \text{年}
+\end{align}
+
+如果收益率上升100个基点（1\%），债券价格预期变化：
+\begin{equation}
+\frac{\Delta B}{B} = -4.902 \times 0.01 = -4.902\%
+\end{equation}
+
+
+\section{债券凸性 (Bond Convexity)}
+
+\subsection{凸性的定义}
+
+凸性是衡量债券价格对收益率变化的二阶敏感性指标：
+
+\begin{equation}
+C = \frac{1}{B} \frac{\partial^2 B}{\partial y^2} = \frac{\sum_{t=1}^{n} c_t t^2 e^{-yt}}{B}
+\end{equation}
+
+\subsection{改进的价格敏感性公式}
+
+包含凸性的更准确关系式：
+
+\begin{equation}
+\frac{\Delta B}{B} = -D\Delta y + \frac{1}{2}C(\Delta y)^2
+\end{equation}
+
+\noindent 其中：
+\begin{itemize}
+    \item 第一项：久期效应（线性项）
+    \item 第二项：凸性效应（二次项，总是正数）
+\end{itemize}
+
+\subsection{凸性的重要性}
+
+\textbf{久期的局限性：}
+久期假设价格与收益率呈线性关系，但实际上债券价格曲线是凸向原点的非线性关系。
+
+\textbf{凸性的优势：}
+\begin{itemize}
+    \item 提供下行风险保护
+    \item 增强上行收益潜力
+    \item 收益率下降时的价格上升 > 收益率上升时的价格下降
+\end{itemize}
+
+\subsection{影响因素}
+
+凸性大小受以下因素影响：
+\begin{itemize}
+    \item 到期时间越长 → 凸性越大
+    \item 票息率越低 → 凸性越大
+    \item 收益率水平越低 → 凸性越大
+\end{itemize}
+
+\section{20年期国债价格变化计算推导}
+
+\subsection{债券基本参数}
+
+给定条件：
+\begin{itemize}
+    \item 到期时间：$T = 20$ 年
+    \item 收益率：$y = 4.5\% = 0.045$
+    \item 票息率：$c = 4.5\% = 0.045$（假设）
+    \item 面值：$F = \$100$
+    \item 付息频率：$m = 2$（半年付息）
+    \item 收益率变化：$\Delta y = -0.0001$（下降1BP）
+\end{itemize}
+
+\subsection{债券定价公式}
+
+债券价格的一般公式：
+\begin{equation}
+B = \sum_{t=1}^{n} \frac{C}{(1+y/m)^t} + \frac{F}{(1+y/m)^n}
+\end{equation}
+
+其中：
+\begin{itemize}
+    \item $C = \frac{c \cdot F}{m} = \frac{0.045 \times 100}{2} = \$2.25$（每期付息）
+    \item $n = T \times m = 20 \times 2 = 40$（总付息期数）
+    \item $y/m = 0.045/2 = 0.0225$（每期收益率）
+\end{itemize}
+
+\subsection{麦考利久期计算}
+
+麦考利久期定义：
+\begin{equation}
+D_{Mac} = \frac{1}{B} \sum_{t=1}^{n} \frac{t \cdot C_t}{(1+y/m)^t}
+\end{equation}
+
+其中 $C_t$ 是第$t$期的现金流。
+
+计算过程：
+\begin{align}
+D_{Mac} &= \frac{1}{B} \left[ \sum_{t=1}^{39} \frac{t \cdot 2.25}{(1.0225)^t} + \frac{40 \cdot 102.25}{(1.0225)^{40}} \right]
+\end{align}
+
+\subsection{修正久期计算}
+
+修正久期公式：
+\begin{equation}
+D_{Mod} = \frac{D_{Mac}}{1 + y/m} = \frac{D_{Mac}}{1 + 0.0225} = \frac{D_{Mac}}{1.0225}
+\end{equation}
+
+\subsection{凸性计算}
+
+凸性定义：
+\begin{equation}
+C = \frac{1}{B} \sum_{t=1}^{n} \frac{t(t+1) \cdot C_t}{m^2 \cdot (1+y/m)^{t+2}}
+\end{equation}
+
+简化为：
+\begin{equation}
+C = \frac{1}{B(1+y/m)^2} \sum_{t=1}^{n} \frac{t(t+1) \cdot C_t}{m^2 \cdot (1+y/m)^t}
+\end{equation}
+
+\subsection{数值计算结果}
+
+通过数值计算得到：
+\begin{align}
+B &= \$100.00 \\
+D_{Mac} &= 13.39 \text{ 年} \\
+D_{Mod} &= \frac{13.39}{1.0225} = 13.10 \\
+C &= 225.09
+\end{align}
+
+\subsection{价格变化计算}
+
+使用泰勒展开的二阶近似：
+\begin{equation}
+\frac{\Delta B}{B} = -D_{Mod} \Delta y + \frac{1}{2}C(\Delta y)^2
+\end{equation}
+
+代入数值：
+\begin{align}
+\frac{\Delta B}{B} &= -13.10 \times (-0.0001) + \frac{1}{2} \times 225.09 \times (-0.0001)^2 \\
+&= 0.001310 + \frac{1}{2} \times 225.09 \times 0.00000001 \\
+&= 0.001310 + 0.000001126 \\
+&= 0.001311126
+\end{align}
+
+\subsection{最终结果}
+
+\textbf{百分比价格变化：}
+\begin{equation}
+\frac{\Delta B}{B} = 0.1311\%
+\end{equation}
+
+\textbf{美元价格变化：}
+\begin{equation}
+\Delta B = 0.001311126 \times 100 = \$0.1311
+\end{equation}
+
+\textbf{效应分解：}
+\begin{itemize}
+    \item 久期效应：$0.1310\%$
+    \item 凸性效应：$0.000113\%$
+    \item 总效应：$0.1311\%$
+\end{itemize}
+
+\subsection{结论}
+
+当20年期4.5\%国债的收益率下降1个基点时，债券价格上升约$\$0.1311$（按$\$100$面值计算），其中久期效应占主导地位，凸性效应在小幅收益率变化时可忽略不计。

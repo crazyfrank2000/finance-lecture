@@ -1,0 +1,387 @@
+\chapter{Determination of Forward and Future Price}
+
+
+\section{期货产品定价}
+
+期货定价基于\textbf{无套利原理}：在有效市场中，不应存在无风险套利机会。
+
+\section{基本公式}
+
+\subsection{不支付收益的资产}
+\begin{equation}
+F_0 = S_0 e^{rT}
+\end{equation}
+
+\subsection{支付已知收益率的资产}
+\begin{equation}
+F_0 = S_0 e^{(r-q)T}
+\end{equation}
+
+\subsection{支付已知收入的资产}
+\begin{equation}
+F_0 = (S_0 - I)e^{rT}
+\end{equation}
+
+其中：
+\begin{itemize}
+\item $F_0$ = 期货价格
+\item $S_0$ = 标的资产现价
+\item $r$ = 无风险利率
+\item $q$ = 收益率
+\item $I$ = 收入现值
+\item $T$ = 到期时间
+\end{itemize}
+
+\section{数学推导}
+
+\subsection{不支付收益资产的推导}
+
+\textbf{构建套利组合：}
+
+\textbf{策略A：} 买入期货 + 借钱买入现货
+\begin{itemize}
+\item 初始成本：0
+\item 到期收益：$S_T - F_0 + S_T - S_0e^{rT} = 2S_T - F_0 - S_0e^{rT}$
+\end{itemize}
+
+\textbf{策略B：} 卖出期货 + 卖空现货并投资
+\begin{itemize}
+\item 初始成本：0
+\item 到期收益：$F_0 - S_T - S_T + S_0e^{rT} = F_0 - 2S_T + S_0e^{rT}$
+\end{itemize}
+
+\textbf{无套利条件：} 两策略收益均为零
+\begin{equation}
+F_0 = S_0 e^{rT}
+\end{equation}
+
+\subsection{支付收益率资产的推导}
+
+\textbf{构建组合：}
+\begin{itemize}
+\item 买入 $e^{-qT}$ 单位标的资产
+\item 卖出一份期货合约
+\end{itemize}
+
+\textbf{初始投资：} $S_0 e^{-qT}$
+
+\textbf{到期价值：}
+\begin{itemize}
+\item 由于股息再投资，$e^{-qT}$ 单位资产增长为1单位，价值 $S_T$
+\item 期货收益：$F_0 - S_T$
+\item 总价值：$S_T + F_0 - S_T = F_0$
+\end{itemize}
+
+\textbf{等价投资策略：}
+投资 $S_0 e^{-qT}$ 于无风险资产，到期价值：
+\begin{equation}
+S_0 e^{-qT} \cdot e^{rT} = S_0 e^{(r-q)T}
+\end{equation}
+
+\textbf{无套利条件：}
+\begin{equation}
+F_0 = S_0 e^{(r-q)T}
+\end{equation}
+
+\subsection{支付已知收入资产的推导}
+
+\textbf{构建组合：}
+\begin{itemize}
+\item 买入标的资产：成本 $S_0$
+\item 卖出期货合约
+\item 在收到收入 $I$ 时投资于无风险资产
+\end{itemize}
+
+\textbf{现金流分析：}
+\begin{itemize}
+\item 期初：支付 $S_0$
+\item 期间：收到收入 $I$，投资获得 $Ie^{r(T-t)}$
+\item 期末：交割获得 $F_0$，总收入 $F_0 + Ie^{r(T-t)}$
+\end{itemize}
+
+\textbf{等价策略：}
+投资 $(S_0 - I)$ 于无风险资产，到期价值：
+\begin{equation}
+(S_0 - I)e^{rT}
+\end{equation}
+
+\textbf{无套利条件：}
+\begin{equation}
+F_0 = (S_0 - I)e^{rT}
+\end{equation}
+
+\section{经济解释}
+
+\subsection{成本收益分析}
+期货价格可以理解为：
+\begin{equation}
+\text{期货价格} = \text{现货价格} + \text{持有成本} - \text{持有收益}
+\end{equation}
+
+\subsection{时间价值}
+期货价格反映了货币的时间价值：
+\begin{itemize}
+\item 避免资金占用
+\item 获得资金机会成本收益 $r$
+\item 放弃持有资产收益 $q$
+\end{itemize}
+
+\section{实际应用}
+
+\subsection{股票期货}
+\begin{equation}
+F_0 = S_0 e^{(r-q)T}
+\end{equation}
+其中 $q$ 为股息收益率
+
+\subsection{债券期货}
+\begin{equation}
+F_0 = (S_0 - I)e^{rT}
+\end{equation}
+其中 $I$ 为期间内票息收入现值
+
+\subsection{外汇期货}
+\begin{equation}
+F_0 = S_0 e^{(r-r_f)T}
+\end{equation}
+其中 $r_f$ 为外国无风险利率
+
+\subsection{商品期货}
+\begin{equation}
+F_0 = (S_0 + U)e^{(r-y)T}
+\end{equation}
+其中 $U$ 为存储成本，$y$ 为便利收益率
+
+\section{总结}
+
+期货定价理论基于无套利原理，核心思想：
+\begin{itemize}
+\item 期货价格必须防止套利机会
+\item 反映持有标的资产的成本和收益
+\item 体现货币的时间价值
+\end{itemize}
+
+\section{远期合约估值}
+
+\subsection{基本原理}
+
+远期合约估值的核心思想是通过比较两个不同交割价格的远期合约来推导估值公式。考虑两个远期合约：
+\begin{itemize}
+\item 合约A：交割价格为 $K$
+\item 合约B：交割价格为 $F_0$（当前远期价格）
+\end{itemize}
+
+\subsection{估值公式}
+
+\textbf{多头远期合约的价值：}
+\begin{equation}
+\text{多头价值} = (F_0 - K)e^{-rT}
+\end{equation}
+
+\textbf{空头远期合约的价值：}
+\begin{equation}
+\text{空头价值} = (K - F_0)e^{-rT}
+\end{equation}
+
+其中：
+\begin{itemize}
+\item $F_0$ = 当前远期价格
+\item $K$ = 合约交割价格
+\item $r$ = 无风险利率
+\item $T$ = 剩余期限
+\end{itemize}
+
+\subsection{数学推导}
+
+\textbf{构建投资组合差异：}
+
+考虑两个多头远期合约：
+\begin{itemize}
+\item 合约1：交割价格为 $K$，到期收益 = $S_T - K$
+\item 合约2：交割价格为 $F_0$，到期收益 = $S_T - F_0$
+\end{itemize}
+
+\textbf{两合约收益差异：}
+\begin{equation}
+(S_T - K) - (S_T - F_0) = F_0 - K
+\end{equation}
+
+\textbf{现值差异：}
+由于这个差异是确定的，其现值为：
+\begin{equation}
+(F_0 - K)e^{-rT}
+\end{equation}
+
+\subsection{经济解释}
+
+\subsubsection{多头远期合约}
+对于多头远期合约价值 $(F_0 - K)e^{-rT}$：
+\begin{itemize}
+\item 当 $F_0 > K$ 时，价值为正：合约有利，因为可以较低价格买入
+\item 当 $F_0 < K$ 时，价值为负：合约不利，因为要以较高价格买入  
+\item 当 $F_0 = K$ 时，价值为零：合约处于平价状态
+\end{itemize}
+
+\subsubsection{空头远期合约}
+对于空头远期合约价值 $(K - F_0)e^{-rT}$：
+\begin{itemize}
+\item 当 $K > F_0$ 时，价值为正：合约有利，因为可以较高价格卖出
+\item 当 $K < F_0$ 时，价值为负：合约不利，因为要以较低价格卖出
+\end{itemize}
+
+\subsection{数值示例}
+
+假设：
+\begin{itemize}
+\item 当前远期价格 $F_0 = 105$
+\item 已有合约交割价格 $K = 100$
+\item 无风险利率 $r = 5\%$
+\item 剩余期限 $T = 0.5$ 年
+\end{itemize}
+
+\textbf{多头远期合约价值：}
+\begin{align}
+\text{价值} &= (105 - 100)e^{-0.05 \times 0.5} \\
+&= 5e^{-0.025} \\
+&= 5 \times 0.9753 \\
+&= 4.88
+\end{align}
+
+这意味着该多头远期合约目前价值4.88元。
+
+\subsection{关键要点}
+
+\begin{enumerate}
+\item \textbf{估值基准}：使用当前远期价格 $F_0$ 作为基准
+\item \textbf{时间价值}：通过 $e^{-rT}$ 折现到现值
+\item \textbf{对称性}：多头和空头的价值互为相反数
+\item \textbf{无套利}：估值基于无套利原理，确保市场一致性
+\end{enumerate}
+
+这种估值方法广泛应用于风险管理、投资组合评估和衍生品定价中。
+
+
+\section{现货与远期、期货价格的定价关系解析}
+
+本节将通过两个图表所表达的内容，系统地解释外汇市场和期货市场中现货、远期和期货价格之间的关系。
+
+\subsection{图表一：现货与远期价格的关系}
+
+\subsubsection{核心思想}
+该图表展示了外汇市场中现货价格与远期价格之间的等价关系。其基本出发点是通过两种不同投资策略的比较，说明在无套利条件下，远期价格的计算方式。
+
+\subsubsection{投资策略比较}
+
+\paragraph{策略A（直接投资外币）}
+\begin{itemize}
+  \item 时间$0$：投资$1000$单位外币；
+  \item 外币以年化利率$r_f$增长；
+  \item 时间$T$时，获得$1000e^{r_f T}$单位外币；
+  \item 若将其按远期汇率$F_0$转换为美元，则得到：
+  \[
+  1000F_0 e^{r_f T} \text{ 美元}
+  \]
+\end{itemize}
+
+\paragraph{策略B（美元投资 + 远期合约）}
+\begin{itemize}
+  \item 时间$0$：投资$1000S_0$美元；
+  \item 美元以年化利率$r$增长；
+  \item 时间$T$时，获得：
+  \[
+  1000S_0 e^{rT} \text{ 美元}
+  \]
+\end{itemize}
+
+\subsubsection{无套利条件}
+
+由于两种策略本质上在时间$T$都能得到$1000$单位外币，因此，为避免套利，其成本必须相等：
+
+\[
+1000F_0 e^{r_f T} = 1000S_0 e^{rT}
+\]
+
+两边同时除以$1000$，得：
+
+\[
+F_0 = S_0 e^{(r - r_f)T}
+\]
+
+这就是经典的外汇远期定价公式。
+
+\subsection{图表二：期货价格与预期未来现货价格的关系}
+
+\subsubsection{核心概念}
+
+在风险中性世界中，所有资产的期望收益率等于无风险利率。我们可以基于这一原则对期货价格进行建模和推导。
+
+\subsubsection{数学推导}
+
+\paragraph{投资组合构建}
+\begin{itemize}
+  \item 投资$F_0 e^{-rT}$于无风险资产；
+  \item 同时买入期货合约；
+\end{itemize}
+
+\paragraph{结果分析}
+\begin{itemize}
+  \item 无风险资产到期价值：
+  \[
+  F_0 e^{-rT} \cdot e^{rT} = F_0
+  \]
+  \item 期货合约到期价值：$S_T - F_0$
+  \item 总投资组合价值：
+  \[
+  F_0 + (S_T - F_0) = S_T
+  \]
+\end{itemize}
+
+\subsubsection{关键公式推导}
+
+根据风险中性世界的定价原则，有：
+
+\[
+F_0 e^{-rT} \cdot e^{kT} = \mathbb{E}[S_T]
+\]
+
+其中，$k$为投资者要求的期望收益率。
+
+整理得：
+
+\[
+F_0 = \mathbb{E}[S_T] e^{(r - k)T}
+\]
+
+\subsubsection{经济含义分析}
+
+\begin{enumerate}
+  \item 当 $k = r$ 时：
+  \[
+  F_0 = \mathbb{E}[S_T]
+  \]
+  此时期货价格等于预期现货价格，说明资产为风险中性；
+  
+  \item 当 $k > r$ 时：
+  \[
+  F_0 < \mathbb{E}[S_T]
+  \]
+  即期货价格低于预期现货价格，资产具有正的风险溢价；
+  
+  \item 当 $k < r$ 时：
+  \[
+  F_0 > \mathbb{E}[S_T]
+  \]
+  即期货价格高于预期现货价格，资产具有负的风险溢价。
+\end{enumerate}
+
+\subsubsection{实际意义}
+
+该关系揭示了：
+\begin{itemize}
+  \item 期货价格不一定等于预期的未来现货价格；
+  \item 两者之间的差异反映了市场所要求的风险溢价；
+  \item 风险溢价是对资产系统性风险的一种补偿；
+\end{itemize}
+
+这是期货定价理论的一个重要组成部分，连接了无套利定价框架与金融市场中风险管理的核心理念。
+
