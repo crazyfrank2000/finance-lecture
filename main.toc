@@ -11,18 +11,144 @@
 \contentsline {subsection}{\numberline {1.3.3}应用场景对比}{4}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}特殊情况分析}{4}{subsection.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.5}实践意义}{5}{subsection.1.3.5}%
-\contentsline {chapter}{\numberline {2}interest rate Futures}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}公式介绍 (Formula Introduction)}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}公式推导 (Formula Derivation)}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}基本关系}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}报价价格计算}{6}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}公式应用示例 (Application Examples)}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}示例1}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}示例2}{7}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}公式特点分析 (Formula Analysis)}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}时间因子影响}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}价格关系}{7}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}360天惯例}{7}{subsection.2.4.3}%
-\contentsline {section}{\numberline {2.5}实际应用注意事项 (Practical Considerations)}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}与其他金融工具的比较 (Comparison with Other Instruments)}{7}{section.2.6}%
-\contentsline {section}{\numberline {2.7}结论 (Conclusion)}{7}{section.2.7}%
+\contentsline {chapter}{\numberline {2}Interest Rate}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Rates}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}联邦基金利率的货币政策传导机制}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}政策工具体系}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}利率走廊机制}{8}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}传导路径}{8}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}直接传导}{8}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}间接传导}{9}{subsubsection.2.2.3.2}%
+\contentsline {subsection}{\numberline {2.2.4}政策实施工具}{9}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}公开市场操作}{9}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}常备便利工具}{9}{subsubsection.2.2.4.2}%
+\contentsline {subsection}{\numberline {2.2.5}政策效果评估}{9}{subsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}泰勒规则}{9}{subsubsection.2.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.2.5.2}政策时滞}{9}{subsubsection.2.2.5.2}%
+\contentsline {subsection}{\numberline {2.2.6}案例分析：2022-2024加息周期}{9}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}前瞻性指引}{10}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}总结}{10}{subsection.2.2.8}%
+\contentsline {section}{\numberline {2.3}利率转换公式详解}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}基本定义}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}核心原理}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}转换公式推导}{11}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}从离散复利到连续复利}{11}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}从连续复利到离散复利}{11}{subsubsection.2.3.3.2}%
+\contentsline {subsection}{\numberline {2.3.4}常见复利频率}{11}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}数值示例}{11}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}转换表}{12}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}特殊性质}{12}{subsection.2.3.7}%
+\contentsline {section}{\numberline {2.4}Yiled}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}平价收益率公式推导}{12}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.1}关键变量定义}{12}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {2.4.1.2}债券定价公式}{13}{subsubsection.2.4.1.2}%
+\contentsline {subsubsection}{\numberline {2.4.1.3}求解平价收益率}{13}{subsubsection.2.4.1.3}%
+\contentsline {subsection}{\numberline {2.4.2}现值因子的计算}{13}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2.1}贴现因子 $d$}{13}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {2.4.2.2}年金现值因子 $A$}{13}{subsubsection.2.4.2.2}%
+\contentsline {subsection}{\numberline {2.4.3}数值示例}{13}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}扩展分析}{14}{subsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.4.1}与零息票收益率的关系}{14}{subsubsection.2.4.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.4.2}收益率曲线形状的影响}{14}{subsubsection.2.4.4.2}%
+\contentsline {section}{\numberline {2.5}常见的收益率（Yield）类型详解}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}收益率分类概览}{14}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}基础收益率详解}{15}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}市场收益率曲线}{15}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}利差类收益率}{16}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}特殊收益率指标}{16}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}收益率之间的关系}{17}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}实务应用指南}{17}{subsection.2.5.7}%
+\contentsline {section}{\numberline {2.6}Bootstrap方法详解}{17}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Bootstrap步骤详解}{18}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}具体算例}{18}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}与其他方法的比较}{19}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Forward Rate 与瞬时远期利率的推导与解释}{19}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Forward Rate（远期利率）公式}{19}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}瞬时远期利率（Instantaneous Forward Rate）}{19}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}两种远期利率的对比}{20}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}收益率曲线斜率与各类利率关系}{20}{subsection.2.7.4}%
+\contentsline {chapter}{\numberline {3}Duration}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Key Duration Relationship}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}基本久期}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}修正久期 (Modified Duration)}{22}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}两种久期的关系与区别}{23}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}数学关系}{23}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}关键区别}{23}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}实际影响因素}{23}{subsubsection.3.1.3.3}%
+\contentsline {subsection}{\numberline {3.1.4}实际应用}{24}{subsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}风险管理应用}{24}{subsubsection.3.1.4.1}%
+\contentsline {subsubsection}{\numberline {3.1.4.2}投资决策应用}{24}{subsubsection.3.1.4.2}%
+\contentsline {subsubsection}{\numberline {3.1.4.3}数值示例}{24}{subsubsection.3.1.4.3}%
+\contentsline {section}{\numberline {3.2}债券凸性 (Bond Convexity)}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}凸性的定义}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}改进的价格敏感性公式}{24}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}凸性的重要性}{25}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}影响因素}{25}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}20年期国债价格变化计算推导}{25}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}债券基本参数}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}债券定价公式}{25}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}麦考利久期计算}{25}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}修正久期计算}{26}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}凸性计算}{26}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}数值计算结果}{26}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}价格变化计算}{26}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}最终结果}{26}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}结论}{27}{subsection.3.3.9}%
+\contentsline {chapter}{\numberline {4}Determination of Forward and Future Price}{28}{chapter.4}%
+\contentsline {section}{\numberline {4.1}期货产品定价}{28}{section.4.1}%
+\contentsline {section}{\numberline {4.2}基本公式}{28}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}不支付收益的资产}{28}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}支付已知收益率的资产}{28}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}支付已知收入的资产}{28}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}数学推导}{28}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}不支付收益资产的推导}{28}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}支付收益率资产的推导}{29}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}支付已知收入资产的推导}{29}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}经济解释}{29}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}成本收益分析}{29}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}时间价值}{29}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}实际应用}{30}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}股票期货}{30}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}债券期货}{30}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}外汇期货}{30}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}商品期货}{30}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}总结}{30}{section.4.6}%
+\contentsline {section}{\numberline {4.7}远期合约估值}{30}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}基本原理}{30}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}估值公式}{30}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}数学推导}{31}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}经济解释}{31}{subsection.4.7.4}%
+\contentsline {subsubsection}{\numberline {4.7.4.1}多头远期合约}{31}{subsubsection.4.7.4.1}%
+\contentsline {subsubsection}{\numberline {4.7.4.2}空头远期合约}{31}{subsubsection.4.7.4.2}%
+\contentsline {subsection}{\numberline {4.7.5}数值示例}{31}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}关键要点}{32}{subsection.4.7.6}%
+\contentsline {section}{\numberline {4.8}现货与远期、期货价格的定价关系解析}{32}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}图表一：现货与远期价格的关系}{32}{subsection.4.8.1}%
+\contentsline {subsubsection}{\numberline {4.8.1.1}核心思想}{32}{subsubsection.4.8.1.1}%
+\contentsline {subsubsection}{\numberline {4.8.1.2}投资策略比较}{32}{subsubsection.4.8.1.2}%
+\contentsline {paragraph}{\numberline {4.8.1.2.1}策略A（直接投资外币）}{32}{paragraph.4.8.1.2.1}%
+\contentsline {paragraph}{\numberline {4.8.1.2.2}策略B（美元投资 + 远期合约）}{32}{paragraph.4.8.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.1.3}无套利条件}{32}{subsubsection.4.8.1.3}%
+\contentsline {subsection}{\numberline {4.8.2}图表二：期货价格与预期未来现货价格的关系}{33}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}核心概念}{33}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}数学推导}{33}{subsubsection.4.8.2.2}%
+\contentsline {paragraph}{\numberline {4.8.2.2.1}投资组合构建}{33}{paragraph.4.8.2.2.1}%
+\contentsline {paragraph}{\numberline {4.8.2.2.2}结果分析}{33}{paragraph.4.8.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.3}关键公式推导}{33}{subsubsection.4.8.2.3}%
+\contentsline {subsubsection}{\numberline {4.8.2.4}经济含义分析}{33}{subsubsection.4.8.2.4}%
+\contentsline {subsubsection}{\numberline {4.8.2.5}实际意义}{34}{subsubsection.4.8.2.5}%
+\contentsline {chapter}{\numberline {5}interest rate Futures}{35}{chapter.5}%
+\contentsline {section}{\numberline {5.1}公式介绍 (Formula Introduction)}{35}{section.5.1}%
+\contentsline {section}{\numberline {5.2}公式推导 (Formula Derivation)}{35}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}基本关系}{35}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}报价价格计算}{35}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5.3}公式应用示例 (Application Examples)}{35}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}示例1}{35}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}示例2}{36}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}公式特点分析 (Formula Analysis)}{36}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}时间因子影响}{36}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}价格关系}{36}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}360天惯例}{36}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}实际应用注意事项 (Practical Considerations)}{36}{section.5.5}%
+\contentsline {section}{\numberline {5.6}与其他金融工具的比较 (Comparison with Other Instruments)}{36}{section.5.6}%
+\contentsline {section}{\numberline {5.7}结论 (Conclusion)}{36}{section.5.7}%
