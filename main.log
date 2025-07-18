@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.7.17)  17 JUL 2025 21:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2025.7.17)  17 JUL 2025 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2019,4 +2019,1484 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_math_space_skip=\skip123
 \l__chemformula_additions_symbol_space_skip=\skip124
 \l__chemformula_count_tokens_int=\count580
-\g__chem
+\g__chemformula_lewis_int=\count581
+\l__chemformula_arrow_arg_i_box=\box148
+\l__chemformula_arrow_arg_ii_box=\box149
+\l__chemformula_superscript_box=\box150
+\l__chemformula_subscript_box=\box151
+\l__chemformula_plus_space_skip=\skip125
+\l__chemformula_minus_space_skip=\skip126
+) (C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/svg\svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2025/06/04 v3.45 KOMA-Script package (file load hooks)
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2025/06/04 v3.45 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2025/06/04 v3.45 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+)
+(C:\Program Files\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count582
+\svg@box=\box152
+\c@svg@param@currpage=\count583
+)
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent.sty
+Package: transparent 2025-06-23 v1.6 Transparency with color stacks
+
+! Undefined control sequence.
+l.42 \IfPDFManagementActiveF
+                             {\RequirePackage{transparent-nometadata}}
+? 
+
+! LaTeX Error: Loading a class or package in a group.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \IfPDFManagementActiveF {\RequirePackage
+                                             {transparent-nometadata}}
+? 
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/transparent\transparent-nometa
+data.sty
+Package: transparent-nometadata 2025-06-23 v1.6 Transparency via pdfTeX's color
+ stack (HO)
+
+
+! LaTeX Error: Loading a class or package in a group.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \RequirePackage
+                    {iftex}
+? 
+
+Package transparent Warning: Loading aborted, because pdfTeX is not running in 
+PDF mode.
+
+)
+! Undefined control sequence.
+l.43 \IfPDFManagementActiveF
+                             {\endinput}
+? 
+) (C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/extarrows\extarrows.sty
+Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
+)
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/tikz-3dplot\tikz-3dplot.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ry3d.code.tex
+File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen410
+))) (C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithm.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count584
+\float@exts=\toks55
+\float@box=\box153
+\@float@everytoks=\toks56
+\@floatcapt=\box154
+)
+\@float@every@algorithm=\toks57
+\c@algorithm=\count585
+)
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/algorithms\algorithmic.sty
+Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count586
+\c@ALC@line=\count587
+\c@ALC@rem=\count588
+\c@ALC@depth=\count589
+\ALC@tlm=\skip127
+\algorithmicindent=\skip128
+)
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/tikz-cd\tikzlibrarycd.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rymatrix.code.tex
+File: tikzlibrarymatrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
+
+
+Package fontspec Info: 
+(fontspec)             SourceHanSansSC-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             SourceHanSansSC-Regular scale = 1.
+
+LaTeX Font Info:    Trying to load font information for TU+minntx on input line
+ 20.
+LaTeX Font Info:    No file TUminntx.fd. on input line 20.
+
+LaTeX Font Warning: Font shape `TU/minntx/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 20.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SourceHanSansSC-Regular.otf(0)' created
+(fontspec)             for font 'SourceHanSansSC-Regular.otf' with options
+(fontspec)             [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,SmallCapsFeatures={RawFeature =
+(fontspec)             +pcap},RawFeature=-ss05,Script={CJK},Path={./SourceHanFo
+nts/OTF/SimplifiedChinese/}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[./SourceHanFonts/OTF/SimplifiedChinese/SourceH
+anSansSC-Regular.otf]/OT:script=hani;language=dflt;-ss05;mapping=tex-text;"
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKsfdefault' (Microsoft YaHei).
+
+
+Package xeCJK Warning: Redefining CJKfamily `\CJKttdefault' (FangSong).
+
+(newcommand.tex
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/listofitems\listofitems.sty
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/generic/listofitems\listofitems.tex
+\loi_cnt_foreach_nest=\count590
+\loi_nestcnt=\count591
+)
+Package: listofitems 2024/03/09 v1.65 Grab items in lists using user-specified 
+sep char (CT)
+) (C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/doublestroke\dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+))
+
+Package csquotes Warning: Load 'inputenc' before 'csquotes' on input line 32.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\TeXGyreTermesX.fontspec)
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Regular scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Bold scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Italic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Slanted scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-Slanted scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-BoldItalic scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-BoldSlanted scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             TeXGyreTermesX-BoldSlanted scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'TeXGyreTermesX(0)' created for font
+(fontspec)             'TeXGyreTermesX' with options [Ligatures = TeX,Scale =
+(fontspec)             1,Extension = .otf,SmallCapsFeatures={RawFeature =
+(fontspec)             +pcap},RawFeature=-ss05,Ligatures=TeX,Extension =
+(fontspec)             .otf,UprightFont = TeXGyreTermesX-Regular,BoldFont =
+(fontspec)             TeXGyreTermesX-Bold,ItalicFont =
+(fontspec)             TeXGyreTermesX-Italic,BoldItalicFont =
+(fontspec)             TeXGyreTermesX-BoldItalic,SlantedFont =
+(fontspec)             *-Slanted,BoldSlantedFont= *-BoldSlanted,Numbers =
+(fontspec)             {Monospaced,Lining}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Regular.otf]/OT:script=latn;lan
+guage=dflt;-ss05;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Regular.otf]/OT:script=latn;lan
+guage=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Bold.otf]/OT:script=latn;langua
+ge=dflt;-ss05;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Bold.otf]/OT:script=latn;langua
+ge=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Italic.otf]/OT:script=latn;lang
+uage=dflt;-ss05;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Italic.otf]/OT:script=latn;lang
+uage=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Slanted.otf]/OT:script=latn;lan
+guage=dflt;-ss05;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-Slanted.otf]/OT:script=latn;lan
+guage=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;
+language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;
+language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn
+;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->s*[1]"[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn
+;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
+
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 32.
+
+Package biblatex Warning: Load 'inputenc' before biblatex.
+
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 32.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
+ 32.
+ (C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\omlntxmi.fd
+File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
+)
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
+32.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
+ 32.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 32.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
+e 32.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 32.
+Package hyperref Info: Link coloring ON on input line 32.
+ (main.out) (main.out)
+\@outlinefile=\write7
+\openout7 = `main.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(72.26997pt, 700.5069pt, 72.26997pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=700.5069pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-73.12352pt
+* \headheight=61.74242pt
+* \headsep=11.38109pt
+* \topskip=10.0pt
+* \footskip=34.1433pt
+* \marginparwidth=61.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Command `\dddot' is already robust on input line 32.
+LaTeX Info: Command `\ddddot' is already robust on input line 32.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2025/05/09 v7.0b a miscellany of footnote facilities
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc-2022-02-14.s
+ty
+Package: footmisc 2024/12/24 v6.0g a miscellany of footnote facilities
+\FN@temptoken=\toks58
+\footnotemargin=\dimen411
+\@outputbox@depth=\dimen412
+Package footmisc Info: Declaring symbol style bringhurst on input line 699.
+Package footmisc Info: Declaring symbol style chicago on input line 707.
+Package footmisc Info: Declaring symbol style wiley on input line 716.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 727.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 747.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 768
+.
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+Package biblatex Info: Reference section=0 on input line 32.
+Package biblatex Info: Reference segment=0 on input line 32.
+\c@lstlisting=\count592
+Package hyperref Info: Option `pageanchor' set `false' on input line 33.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
+* \oddsidemargin=-72.26999pt
+* \evensidemargin=-72.26999pt
+* \topmargin=-145.3935pt
+* \headheight=61.74242pt
+* \headsep=11.38109pt
+* \topskip=10.0pt
+* \footskip=34.1433pt
+* \marginparwidth=61.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: 0-figure/cover.png Graphic file (type bmp)
+<0-figure/cover.png>
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 33.
+
+LaTeX Font Warning: Font shape `TU/SourceHanSansSC-Regular.otf(0)/b/n' undefine
+d
+(Font)              using `TU/SourceHanSansSC-Regular.otf(0)/m/n' instead on in
+put line 33.
+
+LaTeX Font Info:    Font shape `TU/SourceHanSansSC-Regular.otf(0)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 33.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
+e 33.
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\ot1minntx.fd
+File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
+)
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+33.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+33.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+33.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 7.3pt on input line 33.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 5.5pt on input line 33.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 3
+3.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/esint\uesint.fd
+File: uesint.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 33
+.
+
+(C:\Users\wenju\AppData\Roaming\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+
+
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 33.
+
+
+! Package fontspec Error: 
+(fontspec)                The font "KaiTi" cannot be found; this may be but
+(fontspec)                usually is not a fontspec bug. Either there is a
+(fontspec)                typo in the font name/file, the font is not
+(fontspec)                installed (correctly), or there is a bug in the
+(fontspec)                underlying font loading engine (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.33 \maketitle
+               
+? 
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'KaiTi'. Check the typeset output, and if it is okay
+(fontspec)             then ignore this warning. Otherwise a different font
+(fontspec)             should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             KaiTi scale = 1.
+
+
+! Package fontspec Error: 
+(fontspec)                The font "KaiTi" cannot be found; this may be but
+(fontspec)                usually is not a fontspec bug. Either there is a
+(fontspec)                typo in the font name/file, the font is not
+(fontspec)                installed (correctly), or there is a bug in the
+(fontspec)                underlying font loading engine (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.33 \maketitle
+               
+? 
+
+! Package fontspec Error: 
+(fontspec)                The font "KaiTi" cannot be found; this may be but
+(fontspec)                usually is not a fontspec bug. Either there is a
+(fontspec)                typo in the font name/file, the font is not
+(fontspec)                installed (correctly), or there is a bug in the
+(fontspec)                underlying font loading engine (XeTeX/luaotfload).
+
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.33 \maketitle
+               
+? 
+
+Package fontspec Info: 
+(fontspec)             KaiTi scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             KaiTi scale = 1.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'KaiTi(0)' created for font 'KaiTi' with
+(fontspec)             options [Ligatures = TeX,Scale = 1,Extension =
+(fontspec)             .otf,SmallCapsFeatures={RawFeature =
+(fontspec)             +pcap},RawFeature=-ss05,Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1]"[KaiTi.otf]/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1]"[KaiTi.otf]/OT"
+
+LaTeX Font Info:    Font shape `TU/KaiTi(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+! Font TU/KaiTi(0)/m/n/10=[KaiTi.otf]/OT at 10.0pt not loadable: Metric (TFM) f
+ile or installed font not found.
+<to be read again> 
+                   relax 
+l.33 \maketitle
+               
+? 
+Missing character: There is no 作 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 者 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no ： in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 间 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no ： in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+
+
+[1
+
+
+
+]
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 17.28pt on input line 38.
+LaTeX Font Info:    Font shape `TU/SourceHanSansSC-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 17.28pt on input line 38.
+ (main.toc
+LaTeX Font Info:    Font shape `TU/SourceHanSansSC-Regular.otf(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 2.
+)
+\tf@toc=\write8
+\openout8 = `main.toc'.
+
+
+
+[1
+
+
+
+] (1.tex
+第 1{} 章 1.
+LaTeX Font Info:    Font shape `TU/SourceHanSansSC-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 5.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 18.
+LaTeX Font Info:    Font shape `TU/SourceHanSansSC-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 18.
+LaTeX Font Info:    Font shape `TU/SourceHanSansSC-Regular.otf(0)/b/n' will be
+(Font)              scaled to size 10.0pt on input line 35.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 7.3pt on input line 48.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 5.5pt on input line 48.
+
+
+[1
+
+
+]
+
+Missing character: There is no 最 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 优 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 对 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 冲 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 比 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 168.
+[2]
+
+Missing character: There is no 最 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 优 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 对 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 冲 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 比 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[3]
+
+Missing character: There is no 方 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 方 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 数 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 关 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 转 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[4])
+
+Missing character: There is no 方 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 方 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 数 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 关 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 转 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[5] (2.tex
+第 2{} 章 2.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[6
+
+]
+
+Missing character: There is no 联 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 邦 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 基 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 金 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 币 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 政 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 策 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 传 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 制 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[7]
+
+Missing character: There is no 联 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 邦 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 基 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 金 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 币 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 政 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 策 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 传 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 制 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[8]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+Missing character: There is no 联 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 邦 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 基 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 金 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 币 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 政 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 策 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 传 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 制 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[9]
+
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 转 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 公 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 式 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[10]
+
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 转 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 公 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 式 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[11]
+
+[12]
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 541.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 541.
+
+
+[13]
+
+Missing character: There is no 常 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 见 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 收 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 益 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no （ in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no ） in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 类 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 型 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[14]
+
+Missing character: There is no 常 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 见 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 收 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 益 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no （ in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no ） in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 类 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 型 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[15]
+
+Missing character: There is no 常 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 见 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 收 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 益 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no （ in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no ） in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 类 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 型 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[16]
+
+Missing character: There is no 方 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[17]
+
+Missing character: There is no 方 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 详 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[18]
+
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 瞬 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 推 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 释 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[19]
+
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 瞬 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 推 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 释 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[20])
+
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 瞬 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 推 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 释 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[21] (3.tex
+第 3{} 章 3.
+
+
+[22
+
+]
+
+[23]
+
+Missing character: There is no 债 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 券 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 凸 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 性 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[24]
+
+Missing character: There is no 年 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 国 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 债 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 格 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 变 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 化 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 推 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[25])
+
+Missing character: There is no 年 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 国 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 债 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 格 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 变 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 化 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 推 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[26]
+
+Missing character: There is no 年 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 国 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 债 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 格 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 变 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 化 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 推 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 导 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[27] (4.tex
+第 4{} 章 4.
+
+
+[28
+
+]
+
+Missing character: There is no 经 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 济 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 释 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[29]
+
+Missing character: There is no 实 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 际 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 应 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 用 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[30]
+
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 合 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 约 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 估 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 值 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[31]
+
+Missing character: There is no 现 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 、 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 格 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 定 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 关 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 析 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[32]
+
+Missing character: There is no 现 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 、 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 格 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 定 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 关 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 析 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[33])
+
+Missing character: There is no 现 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 远 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 、 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 货 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 格 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 定 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 价 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 关 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 析 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[34] (5.tex
+第 5{} 章 5.
+
+
+[35
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+Missing character: There is no 公 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 式 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 特 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 点 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 分 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 析 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[36])
+
+Missing character: There is no 结 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+Missing character: There is no 论 in font [TeXGyreTermesX-Regular.otf]/OT:script
+=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;!
+[37] (main.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2022/08/05>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 53CAC984718E09F1D7240EDCDABDDE91;5819.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 53168 strings out of 408683
+ 1127971 string characters out of 5750236
+ 2263562 words of memory out of 5000000
+ 75322 multiletter control sequences out of 15000+600000
+ 589248 words of font info for 156 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 110i,12n,136p,695b,900s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (39 pages).
